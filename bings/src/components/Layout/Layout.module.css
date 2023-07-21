@@ -1,0 +1,56 @@
+.layout {
+    background-color: rgb(227, 224, 224);
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.section1 {
+    background-image: url(bg-intro-desktop.png);
+    background-color: rgb(154, 19, 154);
+    color: #fff;
+    padding: 1%;
+}
+.section1 h1{
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.section2 {
+	background-color: #fff;
+    padding: 6%;
+}
+
+@media only screen and (max-width: 600px) {
+    .layout {
+        background-image: url(bg-intro-desktop.png);
+        background-color: rgb(227, 224, 224);
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 6%;
+        width: 98%;
+    }
+
+    .section1 h1{
+        padding: 5%;
+    }
+
+    .section2 {
+        background-image: url(bg-intro-desktop.png);
+        background-color: #fff;
+        padding: 6%;
+        /* border: 2px solid rgb(154, 19, 154); */
+    }
+};

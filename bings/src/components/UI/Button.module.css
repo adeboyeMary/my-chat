@@ -1,0 +1,9 @@
+.button {
+	border-color: rgb(154, 19, 154);
+	padding: 3% 28%;
+	border-radius: 9px;
+	border-style: solid;
+	margin: 6% auto;
+	color: #fff;
+	background-color: rgb(154, 19, 154);
+}

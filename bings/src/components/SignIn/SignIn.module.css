@@ -1,0 +1,17 @@
+.signin p{
+    margin-top: 5%;
+}
+
+.signin input{
+    display: block;
+    border-style: none none solid none;
+    width: 90%;
+    margin-bottom: 4%;
+}
+.signin label{
+    padding-top: 4%;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 13%;
+}

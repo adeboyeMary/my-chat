@@ -1,0 +1,18 @@
+.form input {
+    display: block;
+    margin-bottom: 3%;
+    border-style: none none solid none;
+    width: 90%;
+    
+}
+.form label{
+    padding-top: 4%;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 7%;
+}
+.errtext {
+    color: red;
+    font-weight: bold;
+}
